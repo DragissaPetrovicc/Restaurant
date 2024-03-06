@@ -1,0 +1,169 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.left{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.upperleft{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border: solid black;
+}
+
+.lowerleft{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    border: solid black;    
+}
+.right{
+    padding: 15px 15px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+.upper{
+  height: 33%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.middle{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.lower{
+    
+    height: 33%;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    font-size: 25px;
+    align-items: end;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.slika1{
+    width: 120px;
+    height: 120px;
+    
+}
+.restimg{
+   width: 500px;
+    height: 300px;
+    object-fit: cover; 
+}
+.restaurant-img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.dugmad{ 
+    display: flex; 
+    gap: 5px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.dugme{
+    width: 50px;
+    height: 50px;cursor: pointer;
+    object-fit: cover;
+    padding-bottom: 45px;
+}
+.dugme1{
+    width: 50px;
+    height: 50px; cursor: pointer;
+    object-fit: cover;
+    padding-bottom: 45px;
+}
+img{  
+    padding: 5px;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    
+}
+.menu{
+    background-color: white;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 75px;
+    width: 175px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.middle-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    
+
+}
+.mid-left-row{
+    color: white;
+    font-size: 20px;
+    
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+    
+
+
+
+.middle-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
